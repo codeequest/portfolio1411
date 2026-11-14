@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Montassar Sallami — Data Scientist & CEO @ CodeQuest</title>
-<meta name="description" content="Portfolio of Montassar Sallami — Data Scientist, Machine Learning enthusiast, PL-300 certified Power BI Instructor and CEO of CodeQuest, based in Tunis, Tunisia." />
+<title>Nesrine —Data Scientist & CEO @ CodeQuest</title>
+<meta name="description" content="Portfolio of Nesrine —Data Scientist, Machine Learning enthusiast, PL-300 certified Power BI Instructor and CEO of CodeQuest, based in Tunis, Tunisia." />
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%231A1530'/%3E%3Ctext x='50' y='68' font-family='Arial,sans-serif' font-size='50' font-weight='800' fill='%23FFB800' text-anchor='middle'%3EMS%3C/text%3E%3C/svg%3E" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,6 +12,8 @@
 <style>
   :root {
     --paper: #FFF8EF;
+    --fuchsia: #FF00FF;
+    --fuchsia-light: #FF5CF0;
     --ink: #1A1530;
     --coral: #FF5D5D;
     --amber: #FFB800;
@@ -32,7 +34,8 @@
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html { scroll-behavior: smooth; overflow-x: clip; }
   body {
-    background: var(--paper);
+    background: var(--fuchsia);
+    background: linear-gradient(160deg, var(--fuchsia-light) 0%, var(--fuchsia) 55%, var(--fuchsia-light) 100%) fixed;
     color: var(--ink);
     font-family: "Space Grotesk", system-ui, sans-serif;
     line-height: 1.65;
@@ -54,7 +57,7 @@
   /* ---------- nav ---------- */
   header.site {
     position: fixed; top: 0; left: 0; right: 0; z-index: 50;
-    background: rgba(255, 248, 239, 0.85);
+    background: rgba(255, 0, 255, 0.85);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-bottom: 3px solid transparent;
@@ -99,7 +102,7 @@
 
   .burger { display: none; background: #fff; border: 3px solid var(--ink); border-radius: 10px; box-shadow: 3px 3px 0 var(--ink); cursor: pointer; padding: 9px 8px; }
   .burger span { display: block; width: 20px; height: 2.5px; background: var(--ink); margin: 4px 0; border-radius: 2px; transition: transform 0.3s ease, opacity 0.3s ease; }
-  .mobile-menu { display: none; flex-direction: column; padding: 8px 24px 18px; border-bottom: 3px solid var(--ink); background: var(--paper); }
+  .mobile-menu { display: none; flex-direction: column; padding: 8px 24px 18px; border-bottom: 3px solid var(--ink); background: var(--fuchsia); }
   .mobile-menu a { color: var(--ink); text-decoration: none; padding: 11px 0; font-weight: 600; }
   header.site.open .mobile-menu { display: flex; }
   header.site.open .burger span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
@@ -324,7 +327,7 @@
 
 <header class="site" id="siteHeader">
   <div class="wrap nav">
-    <a class="logo" href="#top">MS.</a>
+    <a class="logo" href="#top">N.</a>
     <nav class="links">
       <a href="#about">About</a>
       <a href="#experience">Experience</a>
@@ -362,7 +365,7 @@
     </div>
     <div class="wrap">
       <span class="sticker reveal"><span class="dot"></span> Tunis, Tunisia · open to opportunities</span>
-      <h1 class="reveal">Hi, I'm <span class="hl">Montassar</span><br />Sallami 👋</h1>
+      <h1 class="reveal">Hi, I'm <span class="hl">Nesrine</span> 👋</h1>
       <div class="typed-line reveal"><span id="typed"></span><span class="caret"></span></div>
       <p class="lead reveal">
         I turn data into decisions. Data scientist and machine learning enthusiast,
@@ -625,7 +628,7 @@
 
 <footer>
   <div class="wrap">
-    © <span id="year"></span> Montassar Sallami · Tunis, Tunisia ·
+    © <span id="year"></span> Nesrine · Tunis, Tunisia ·
     <a href="https://www.linkedin.com/in/montassar-sallami-964a7a21b/" target="_blank" rel="noopener">LinkedIn</a>
   </div>
 </footer>
